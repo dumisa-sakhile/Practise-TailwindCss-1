@@ -1,24 +1,23 @@
-<main class="w-screen flex flex-col items-center justify-center gap-[10px] p-[20px] pt-[120px]">
+<section class="flex h-screen w-screen flex-col items-center justify-center">
+  <form action="" class="flex min-h-[100px] w-[350px] flex-col items-center justify-center gap-4 rounded-md bg-gray-900 p-10 shadow-lg shadow-gray-400 :dark bg-slate-50">
+    <h1 class="text-md font-bold uppercase text-slate-300 :dark text-slate-700">Register</h1>
+    <p class="text-sm font-extralight text-slate-400 dark: text-slate-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis quo, vero fugit nam nobis nesciunt libero voluptatum maiores molestiae doloribus.</p>
 
+    <label for="name" class="w-full text-left text-sm capitalize text-slate-300 :dark text-slate-700">name</label>
+    <input type="text" name="name" id="name" placeholder="Your name" class="h-[35px] w-full rounded-sm pl-2 text-sm caret-green-500 focus:outline-none focus:ring focus:ring-green-500 dark: ring ring-slate-200" />
 
-<form action="" class="bg-slate-50 flex flex-col items-center justify-center gap-4 w-[350px] min-h-[100px] rounded-md ring-[1px] ring-gray-300/50 py-[20px]">
+    <label for="email" class="w-full text-left text-sm capitalize text-slate-300 :dark text-slate-700">Email</label>
+    <input type="text" name="email" id="email" placeholder="Your email" class="h-[35px] w-full rounded-sm pl-2 text-sm caret-green-500 focus:outline-none focus:ring focus:ring-green-500 dark: ring ring-slate-200" />
 
-    <h1 class="text-lg text-green-500/50 roboto-medium capitalize">welcome</h1>
+    <label for="email" class="w-full text-left text-sm capitalize text-slate-300 :dark text-slate-700"">Password</label>
+    <input type="text" name="password" id="" placeholder="Your password" class="h-[35px] w-full rounded-sm pl-2 text-sm caret-green-500 focus:outline-none focus:ring focus:ring-green-500 dark: ring ring-slate-200" />
 
-    <div class="w-full px-[7px] flex flex-col gap-2">
-        <label for="email" class="text-sm text-gray-500/50 roboto-medium capitalize">email</label>
-        <input type="email" name="email" id="email" class="w-full px-4 py-2 text-sm text-gray-500/50 roboto-medium bg-green-100/50 ring-[1px] ring-green-200/50 rounded-md focus:outline-none focus:ring-[2px]" placeholder="Enter email">
+    <div>
+      <br />
+      <input type="checkbox" name="consent" id="consent" class="accent-green-500" checked />
+      <label for="consent" class="text-sm text-slate-200 :dark text-slate-700"">I hereby agree to the <span class="text-sm font-medium capitalize text-green-500">terms and conditions</span> and consent to my data usage.</label>
     </div>
 
-    <div class="w-full px-[7px] flex flex-col gap-2">
-        <label for="email" class="text-sm text-gray-500/50 roboto-medium capitalize">email</label>
-        <input type="email" name="email" id="email" class="w-full px-4 py-2 text-sm text-gray-500/50 roboto-medium bg-green-100/50 ring-[1px] ring-green-200/50 rounded-md focus:outline-none focus:ring-[2px]" placeholder="Enter email">
-    </div>
-
-<button class="rounded-md shadow shadow-green-200/50 ring-[1px] ring-green-100 text-center w-[90px] h-[40px] text-lg roboto-light bg-green-100">submit</button> 
-
-
-</form>
-
-
-</main>
+    <button class="rounded border border-green-600 bg-green-500 px-4 py-2 font-semibold text-white shadow hover:bg-green-400">Button</button>
+  </form>
+</section>
